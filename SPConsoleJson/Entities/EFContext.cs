@@ -14,7 +14,7 @@ namespace SPConsoleJson.Entities
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-BLC5I62;Initial Catalog=BestSQLStorage;User ID=test;Password=123456");
+                optionsBuilder.UseSqlServer(@"Data Source=DESKTOP-BLC5I62;Initial Catalog=BestSQLStorage32;User ID=test;Password=123456");
             }
         }
     }
